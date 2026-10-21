@@ -1,0 +1,15 @@
+# Dependensi Layanan AI Python - PLN UP3 Tegal
+# Jalankan: pip install -r requirements.txt
+
+# Framework Web & Validasi Data (Opsional jika ingin menjalankan dengan Uvicorn)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+Pillow>=9.5.0
+requests>=2.28.0
+
+# Library Pelatihan & Inferensi YOLOv8 (Install setelah dataset siap dilatih)
+# ultralytics>=8.0.0
+# torch>=2.0.0
+# torchvision>=0.15.0
